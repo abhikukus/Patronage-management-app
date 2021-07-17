@@ -1,6 +1,7 @@
 # Patronage Management App
 - Patronage Manager App is basically chat bot and data management put together. It manages [patronage event](#general-information).
 - Run PatManager.py to start the App
+- Demo video [here](https://youtu.be/Ou5LJWAjDvM)
 
 ## Table of Contents
 * [General Info](#general-information)
