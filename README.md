@@ -47,6 +47,7 @@ This App listens to group chat if anyone ready to buy gift and then forms a queu
 
 ## Setup
 - This App supports 1920x1080 resolution.
+- Make sure Scale & layout is 100% under display settings of your computer.
 - Use Steam Version for March of Empire game(for patronage event)
 - [Executable version for windows](./dist) Download all parts of zip files and Extract. Run PatronageManager.exe
 - Contact Me: abhikukus@gmail.com 
