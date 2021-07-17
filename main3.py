@@ -82,7 +82,7 @@ class textRecognition():
                                 if str(txts[i+1]).lower() != 'ago':
                                     self.chatbook.add(temp2, txts[i+1])
 
-
+    
     def cmdCheck(self,sharedPatAmountDict):
         currentCmd = ""
         isdoneWho = ""
@@ -101,7 +101,14 @@ class textRecognition():
                         currentCmd = currentCmd + key + "isdone-"
                         isdoneWho=str(value[i+1])
 
+        newCurrentCmd = ""
+        tempCurrentCmd = currentCmd.split("-")
+        for nCmdi in tempCurrentCmd:
+            if nCmdi not in newCurrentCmd:
+                newCurrentCmd = newCurrentCmd + nCmdi +"-"
             
+        currentCmd = newCurrentCmd
+        
         if currentCmd.lower() not in self.prevCmd.lower():
             tempCurrentCmd = currentCmd
             #print("currentCMD ", currentCmd)
