@@ -71,9 +71,10 @@ class searchAndQueue():
         #print(chatbook)
         for key in chatbook:
             if index == key:
+                value = str(chatbook[key]).lower().replace("#isdone", "")
                 isDone = ['done', 'bought']
                 for isdone in isDone:
-                    if isdone in chatbook[key]:
+                    if isdone in value:
                         boughtGift = True
                         break
         
