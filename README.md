@@ -51,4 +51,3 @@ This App listens to group chat if anyone ready to buy gift and then forms a queu
 - Use Steam Version for March of Empire game(for patronage event)
 - INSTALL Pytesserect OCR before starting Patronage Manager App. Pytesserect OCR : https://github.com/UB-Mannheim/tesseract/wiki from Windows installation section, choose 64bit or 32bit version as per your computer. Install with all default options. installation directory should be : "C:\Program Files\Tesseract-OCR\"
 - [Executable version for windows](./dist) Download all parts of zip files and Extract. Run PatronageManager.exe
-- Contact Me: abhikukus@gmail.com 
